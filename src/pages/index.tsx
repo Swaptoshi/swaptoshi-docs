@@ -21,7 +21,10 @@ function HomepageHeader() {
           network's decentralization and growth
         </p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/intro">
+          <Link
+            className="button button--secondary button--lg"
+            to="/category/introduction"
+          >
             Let's Getting Started 🚀
           </Link>
         </div>

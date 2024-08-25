@@ -14,8 +14,9 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/undraw_analytics.svg").default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Find out how Swaptoshi was launched fairly and dive into its tokenomics.
+        See how Swaptoshi promotes fairness, transparency, and encourages
+        maximum contribution.
       </>
     ),
   },
@@ -24,8 +25,9 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/undraw_community.svg").default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        See how Swaptoshi centers the community in its growth. Explore our
+        decentralized governance, treasury management, and DAO initiatives that
+        empower everyone to participate.
       </>
     ),
   },
@@ -34,8 +36,9 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/undraw_crypto_portfolio.svg").default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Discover the advanced features of our DEX, inspired by industry best
+        practices. Learn how Klayr SDK’s scalable blockchain technology powers a
+        powerful and efficient trading experience.
       </>
     ),
   },

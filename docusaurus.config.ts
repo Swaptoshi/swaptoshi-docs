@@ -3,7 +3,7 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "Swaptoshi Docs",
+  title: "Swaptoshi Documentation",
   tagline: "Fair-Launched Community-Driven Klayr DEX",
   favicon: "img/favicon.ico",
 
@@ -29,6 +29,16 @@ const config: Config = {
     locales: ["en"],
   },
 
+  headTags: [
+    {
+      tagName: "link",
+      attributes: {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Ubuntu:wght@100;200;300;400;500;600;700;800;900",
+      },
+    },
+  ],
+
   presets: [
     [
       "classic",
@@ -37,7 +47,7 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/swaptoshi/swaptoshi-docs",
+          editUrl: "https://github.com/swaptoshi/swaptoshi-docs/edit/main",
           path: "content",
           routeBasePath: "",
         },
@@ -54,7 +64,7 @@ const config: Config = {
     navbar: {
       title: "Docs",
       logo: {
-        alt: "Swaptoshi Docs",
+        alt: "Swaptoshi Documentation",
         src: "img/logo.svg",
       },
       items: [
@@ -65,7 +75,7 @@ const config: Config = {
           label: "Documentation",
         },
         {
-          href: "https://github.com/swaptoshi/swaptoshi-docs",
+          href: "https://github.com/swaptoshi",
           label: "GitHub",
           position: "right",
         },

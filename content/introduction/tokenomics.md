@@ -57,7 +57,7 @@ The table above can be visualized in the graph chart below.
 
 :::warning
 
-With current chain configuration, after the mining block reward reaches 0 (at year 100), validators can still earn rewards by setting `minFeePerByte` to 0, which means transaction fees will be paid to validators. This can be achieved through on-chain configuration modification proposals, if the `fee` module on the Klayr SDK implements the `governance` module; otherwise, it would require a hard fork. For more details, visit the [Governance Section](./governance.md).
+With current chain configuration, after the block reward reaches 0 (at year 100), validators can still be incentivized by setting `minFeePerByte` to 0, which means transaction fees will be paid to validators. This can be achieved through on-chain configuration modification proposals, if the `fee` module on the Klayr SDK implements the `governance` module; otherwise, it would require a hard fork. For more details, visit the [Governance Section](./governance.md).
 
 :::
 

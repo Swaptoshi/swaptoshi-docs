@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: Discover what is swaptoshi-core
 ---
 
 # Overview of Swaptoshi Core

@@ -122,6 +122,11 @@ const config: Config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()}`,
     },
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
+    },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,

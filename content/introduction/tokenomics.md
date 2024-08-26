@@ -129,6 +129,6 @@ The treasury will acquire SWX as well as other tokens from the following activit
 
 :::info
 
-As outlined in [Governance Section]('./governance.md), these behaviours are expected to be configurable and can be decided through on-chain DAO proposals, which are voted on by `SWX` holders.
+As outlined in [Governance Section](./governance.md), these behaviours are expected to be configurable and can be decided through on-chain DAO proposals, which are voted on by `SWX` holders.
 
 :::

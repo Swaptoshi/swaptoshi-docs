@@ -63,20 +63,54 @@ With current chain configuration, after the block reward reaches 0 (at year 100)
 
 ## Consensus
 
-wip
+`SWX` is used to secure the Swaptoshi protocol network through staking on a Proof-of-Stake (PoS) consensus mechanism.
+
+Swaptoshi network will adopt the Klayr SDK PoS consensus configuration with certain modifications, including a block time of 3 seconds and a `minWeightStandby` configuration of 10 SWX.
+
+Rewards will start at `0.25 SWX` per block and will be halved every `42,000,000 blocks` (approximately every 4 years). The reward distribution will commence after a `201559` block (approximately 7-day) initialization phase, and the final reward will be issued 100 years thereafter.
 
 ## Liquid Staking
 
-wip
+For every `SWX` that is staked, users will receive a 1:1 equivalent in liquid `SWL`, which can be utilised within the Swaptoshi protocol. This ensures the network remains secure while maintaining liquidity.
+
+To unstake, users must hold a 1:1 equivalent of `SWL` in their wallet.
 
 ## Swap Fee & NFT Positions
 
-wip
+Every liquidity provider that supplies liquidity will earn a fee from each swap transaction.
+
+Liquidity positions will be represented by NFTs ([LIP-0052](https://github.com/klayrHQ/lips/blob/main/proposals/lip-0052.md)). Since liquidity positions are represented in NFT form, they can be traded and ownership can be transferred. Only the owners of these NFTs can claim rewards from swap fees for each NFT position.
 
 ## Fee Conversion
 
-wip
+`SWX` is used to pay transaction fees within the network.
+
+However, Swaptoshi implements the `feeConversion` module, which allows users to pay transaction fees without needing to hold `SWX` initially, enhancing the overall user experience for starting swaps.
+
+:::info
+
+The activation condition for the `feeConversion` module is that, the token being swapped must have a liquidity pool against either `SWX` or `SWL`, and liquidity must be available.
+
+For example, if a user wants to swap `KLY` for `PEPX`, and there exists a `KLY/SWX` or `KLY/SWL` liquidity pool, the user does not need to hold `SWX` tokens. In this case, `KLY` will be automatically converted into `SWX` when the swap command is executed on-chain.
+
+This incentivizes token creators to establish liquidity pools for `SWX` or `SWL`, which is expected to enhance the value of both `SWX` and `SWL`.
+
+:::
 
 ## Governance
 
-wip
+`SWX` is also used for voting on the DAO treasury.
+
+Treasury Address is `klyr49epb3jdyqmnfyrz7jdc5ws3rmyuqzje4c4jb`, which obtained by `SHA256(b"GovernanceTreasuryAccount")[:20]`, as outlined on [LIP-0074](https://github.com/klayrHQ/lips/blob/main/proposals/lip-0074.md)
+
+The treasury will acquire SWX as well as other tokens from the following activities:
+
+- `10%` of each block reward will be transferred to the treasury address.
+- Fees from each transaction will not be burned, but will be sent to the treasury. This also ensuring that the total supply of 21 million remains constant.
+- Every swap fee received by liquidity providers will be subject to a `10%` deduction, which will be transferred to the treasury
+
+:::info
+
+As outlined in [Governance Section]('./governance.md), these behaviours are expected to be configurable and can be decided through on-chain DAO proposals, which are voted on by `SWX` holders.
+
+:::

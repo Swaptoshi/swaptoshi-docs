@@ -5,11 +5,29 @@ description: Discover SWX utilities and dynamics.
 
 # Tokenomics
 
-wip
+This section outlines the economics of `SWX` tokens and their dynamic interactions within the protocol.
+
+:::tip
+
+The tokenomics design is open to community suggestions and input. If you have any ideas or feedback, feel free to [Edit this pages](https://github.com/swaptoshi/swaptoshi-docs/edit/main/content/introduction/tokenomics.md), and open a Pull Request on the [swaptoshi-docs](https://github.com/swaptoshi/swaptoshi-docs) repository.
+
+:::
 
 ## Initial Price
 
-wip
+The initial price of the SWX token is set at **3.5 KLY/SWX**. This pricing strategy is carefully designed to balance miner incentives with the overall market cap. Here’s a more detailed explanation:
+
+- **Validator Incentive**: The KLY network rewards `2 KLY` per block, with a `7-second` block time, resulting in approximately `24,685 KLY` mined daily by 53 validators. For Swaptoshi, with `0.25 SWX` per block, a `3-second` block time yields about `7,200 SWX` per day. At a price of `3.5 KLY/SWX`, validators could earn around `25,200 KLY` daily, closely matching the KLY daily reward.
+
+- **Reasonable Initial Market Cap**: In the first year, with `0.25 SWX` per block, a `3-second` block time, and `1,193.64 SWX` pre-minted, the total supply will reach `2,629,193.64 SWX`. At a price of `3.5 KLY/SWX`, this results in a value of `9,202,177.74 KLY`, which is approximately `5%` of the KLY market cap.
+
+- **Encourage Growth**: Setting the price at `3.5 KLY/SWX` makes it accessible for newcomers to join the network. Increased participation can drive up sustainable demand, which in turn can boost the token’s value.
+
+:::info
+
+Again, if you have any ideas or feedback about the initial price, feel free to [Edit this pages](https://github.com/swaptoshi/swaptoshi-docs/edit/main/content/introduction/tokenomics.md).
+
+:::
 
 ## Allocation & Distribution
 

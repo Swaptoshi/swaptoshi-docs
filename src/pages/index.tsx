@@ -23,7 +23,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/category/introduction"
+            to="/introduction/about-swaptoshi"
           >
             Let's Get Started 🚀
           </Link>

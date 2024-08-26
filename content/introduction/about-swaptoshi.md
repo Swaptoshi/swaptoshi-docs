@@ -91,10 +91,10 @@ The `liquidPos` module provides liquid staking functionality, automatically mint
 
 The `liquidPos` module includes following configurations:
 
-| **Config** | **Type** | **Description**                                                      |
-| ---------- | -------- | -------------------------------------------------------------------- |
-| `tokenID`  | String   | Specifies the unique identifier for the token used as the LST token. |
-| `ratio`    | Number   | Defines the ratio of liquid LST to staked native token.              |
+| **Config** | **Type** | **Description**                                                                       |
+| ---------- | -------- | ------------------------------------------------------------------------------------- |
+| `tokenID`  | String   | Specifies the unique identifier for the token used as the LST token.                  |
+| `ratio`    | Number   | Defines the ratio of liquid LST to staked native token. This config is not governable |
 
 ### feeConversion
 

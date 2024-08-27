@@ -7,7 +7,7 @@ description: Discover Swaptoshi interoperability.
 
 Swaptoshi is built using the Klayr SDK, which is a toolkit for creating independent blockchains that can interoperate with each other, all using JavaScript.
 
-In this section, we will cover some brief constraints and considerations regarding how the Klayr mainchain and Swaptoshi sidechains interact and work together.
+In this section, some brief constraints and considerations regarding how the Klayr mainchain and Swaptoshi sidechains interact and work together will be covered.
 
 :::info
 

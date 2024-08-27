@@ -200,7 +200,7 @@ The boost multiplier can be calculated using the following formula:
 <br />
 
 $$
-\text{BoostMultiplier} = 1 + \max \left( 0, \frac{\text{targetHeight} - \text{currentHeight}}{\text{maxBoostDuration}} \right) \times \left( \frac{\text{boostFactor}}{100} - 1 \right)
+\text{BoostMultiplier} = 1 + \max \left( 0, \frac{\text{targetHeight} - \text{voteEndHeight}}{\text{maxBoostDuration}} \right) \times \max \left(0, \frac{\text{boostFactor}}{100} - 1 \right)
 $$
 
 <br />

@@ -101,6 +101,14 @@ Proposals that remain in the `ACTIVE` status after the `voteDuration` will have 
 
 If a proposal is not accepted, its status will be set to `REJECTED`. Accepted proposals will have the status `ACCEPTED` and will await execution for a duration specified by the `executionDuration` block, starting from the time the proposal was created.
 
+Swaptoshi networks sets `executionDuration` of 806400 blocks (the same as `voteDuration`).
+
+:::info
+
+Since `voteDuration`, `quorumDuration`, and `executionDuration` are the same on the Swaptoshi network, it means that a Swaptoshi's proposal will undergo quorum check, decide its outcome, and execute at the same block height.
+
+:::
+
 :::note
 
 When calculating vote weight and determining proposal acceptance, boosting and/or turnout bias may be applied as described below.

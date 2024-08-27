@@ -5,6 +5,8 @@ description: Discover three phase towards launch 🛠️💰🚀
 
 # Mainnet Launch Phase
 
+![Mainnet Launch Phase](./img/launch-banner.png)
+
 wip
 
 ## Network Setup Phase

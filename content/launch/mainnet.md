@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: Discover three phase towards launch 🛠️💰🚀
 ---
 
 # Mainnet Launch Phase

@@ -35,6 +35,8 @@ Again, if you have any ideas or feedback about the initial price, feel free to [
 
 At launch, `119,364,000,000 Nakamoto`, equivalent to `1,193.64 SWX` or 0.0056% of the total supply, will be minted for network setup purposes. The remaining `20,998,806.36 SWX`, or 99.9944% of the total supply, will be mined over a period of 100 years.
 
+The pre-minted `1,193.64 SWX` tokens will be held at the address `klyof58j7a5fvs55utdnv6xmkv3b6swjmjaotbt85`.
+
 ![About Swaptoshi](./img/distribution-pie.png)
 
 Below is the table showing the `SWX` block reward over time.

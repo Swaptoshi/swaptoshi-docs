@@ -260,8 +260,8 @@ To make use of all the Swaptoshi Core commands, enable IPC in the config. Config
     // Enable RPC communication over 'ipc' and 'ws'
     "modes": ["ipc", "ws"],
 
-    // Set allowed methods, or use wild cards to enable all
-    "allowedMethods": ["*"],
+    // Set allowed methods, or use wild cards "*" to enable all
+    "allowedMethods": ["generator", "system", "random"],
 
     // In case `modes` include `ws` then, the following port is used
     "port": 7887,

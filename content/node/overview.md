@@ -27,3 +27,9 @@ After installation, Swaptoshi Core can be connected to the different Swaptoshi b
 
 The Swaptoshi Core v4 makes full use of the [modules defined by Klayr SDK v6](https://klayr.xyz/documentation/klayr-sdk/modules/index.html)
 Apart from the aforementioned modules, Swaptoshi Core has an additional module which outlined on the [About Swaptoshi](../introduction/about-swaptoshi#modules) page
+
+:::note
+
+This Node Deployment documentation category is primarily based on the [Official Klayr Documentation](https://docs.klayr.xyz). Therefore, it is also recommended to visit their website for further details and a deeper understanding.
+
+:::

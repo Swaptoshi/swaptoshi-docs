@@ -13,6 +13,8 @@ This section will explain how Swaptoshi's governance works.
 
 Since nearly every behavior is managed through the `GovernableConfig`, the community can adjust settings to their preferences by submitting proposals with the action type [`config`](#config), as outlined below.
 
+On the pre-mainnet stage, however, community are encouraged to open an issue or open a pull request on [swaptoshi-core](https://github.com/swaptoshi/swaptoshi-core) GitHub repository.
+
 :::
 
 ## Treasury

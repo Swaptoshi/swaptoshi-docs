@@ -119,3 +119,9 @@ Until all the genesis validators have lost their positions, they will continue t
 Once all genesis validators are no longer forging blocks, the three NFT Positions they earned will be transferred to the [Treasury Address](../introduction/governance#address). At this point, anyone can execute the `dex:collectTreasury` transaction to withdraw the earnings from these NFT positions. These funds can then be used to fund the [funding type proposal](../introduction/governance#funding).
 
 By doing this, the liquidity associated with the three NFT positions will be locked permanently, and the earnings will be managed by the community indefinitely.
+
+:::info
+
+Any leftover tokens from this process will be transferred to the Treasury Address.
+
+:::

@@ -23,7 +23,7 @@ The goal of this phase is to initiate and bootstrap the initial networks to enab
 
 This phase includes:
 
-1. **54 Genesis Validators**: Swaptoshi will be initialized with a genesis block containing 54 validators—53 with a vote weight of 10 SWX, and 1 non-forging validator with no vote weight. The non-forging validator plays a crucial role in the [Liquidity Setup Phase](#liquidity-setup-phase) discussed later.
+1. **54 Genesis Validators**: Swaptoshi will be initialized with a genesis block containing 54 validators—53 with a vote weight of 10 SWX, and 1 non-forging validator with no vote weight. The non-forging validator plays a crucial role in the [Liquidity Setup Phase](#-liquidity-setup-phase) discussed later.
 
 2. **Sidechain Registration**: To ensure a smooth registration process for the Klayr sidechain, this will occur immediately after the genesis validators begin forging blocks.
 
@@ -47,7 +47,7 @@ To bootstrap the initial liquidity, Swaptoshi will utilize the block rewards ear
 
 The liquidity distribution will be allocated as follows: `80%` will go towards the KLY/SWX liquidity pool, while `20%` will be allocated to the SWX/SWL liquidity pool.
 
-From this process, three NFT Liquidity Positions will be created. Details on how these NFTs will be handled will be covered in the [Validator Decentralization Phase](#validator-decentralization-phase) section.
+From this process, three NFT Liquidity Positions will be created. Details on how these NFTs will be handled will be covered in the [Validator Decentralization Phase](#-validator-decentralization-phase) section.
 
 :::note
 

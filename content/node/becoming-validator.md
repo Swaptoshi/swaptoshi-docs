@@ -19,7 +19,7 @@ This includes how to:
 
 To be able to become a validator for a blockchain, it is assumed that the following requirements are fulfilled:
 
-1. Operating a [swaptoshi-core](./install.mdx) connected to the respective blockchain network, e.g. a Swaptoshi Core node connected to the Swaptoshi Mainnet.
+1. Operating a [swaptoshi-core](./install) connected to the respective blockchain network, e.g. a Swaptoshi Core node connected to the Swaptoshi Mainnet.
 2. Owning an account on the respective blockchain.
 3. A sufficient account balance to send the "Register Validator" transaction (minimum 10 SWX for the Swaptoshi Mainnet). You can verify your balance for example by requesting the `token_getBalance` endpoint.
 4. A sufficient account balance to perform the [self-stake](#how-to-stake-to-increase-the-validator-weight).

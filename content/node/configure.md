@@ -7,7 +7,7 @@ description: Discover ways to configure swaptoshi-core
 
 :::note
 
-This information assumes that you have already successfully installed Swaptoshi-Core. If you haven't, please visit the [Install Swaptoshi-Core Page](./install.mdx).
+This information assumes that you have already successfully installed Swaptoshi-Core. If you haven't, please visit the [Install Swaptoshi-Core Page](./install).
 
 :::
 

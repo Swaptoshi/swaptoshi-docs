@@ -27,7 +27,7 @@ This phase includes:
 
 2. **Sidechain Registration**: To ensure a smooth registration process for the Klayr sidechain, this will occur immediately after the genesis validators begin forging blocks.
 
-3. **20 VIP Validators**: Swaptoshi will invite 20 community validators to join from the start as part of the Validator Initialization Program (VIP). Each VIP validator will receive 31 SWX in the genesis block: 10 SWX for validator registration, 20 SWX for self-staking, and 1 SWX to cover transaction fees. The 20 SWX allocated for self-staking ensures that their validator weight surpasses that of the genesis validators, securing their role in block forging.
+3. **20 VIP Validators**: Swaptoshi will invite 20 community validators to join from the start as part of the [Validator Initialization Program (VIP)](./vip). Each VIP validator will receive 31 SWX in the genesis block: 10 SWX for validator registration, 20 SWX for self-staking, and 1 SWX to cover transaction fees. The 20 SWX allocated for self-staking ensures that their validator weight surpasses that of the genesis validators, securing their role in block forging.
 
 4. **Initialization Period**: An initialization period of 201,559 blocks (approximately 7 days) will occur, during which the block reward is inactive. This period allows validators to prepare themselves adequately.
 

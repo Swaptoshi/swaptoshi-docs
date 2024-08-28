@@ -41,7 +41,7 @@ After a block is finalized, it is included in the Cross-Chain Update (CCU) by th
 
 The relayer address for connecting the Klayr mainchain and the Swaptoshi sidechain is `klyof58j7a5fvs55utdnv6xmkv3b6swjmjaotbt85`. This address handles sending Cross-Chain Update (CCU) commands to both chains, which requires a transaction fee.
 
-In addition to using the pre-minted `1,193.64 SWX` tokens as detailed in the [Tokenomics](./tokenomics.md), the community can also contribute tokens to the relayer address to help cover the transaction fees for submitting CCUs.
+In addition to using the pre-minted `573.64 SWX` tokens as detailed in the [Tokenomics](./tokenomics#allocation--distribution), the community can also contribute tokens to the relayer address to help cover the transaction fees for submitting CCUs.
 
 :::info
 

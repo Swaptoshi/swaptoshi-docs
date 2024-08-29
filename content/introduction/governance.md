@@ -59,7 +59,7 @@ Proposals can have one of seven possible statuses: `CREATED`, `ACTIVE`, `ACCEPTE
 
 To create a proposal, the author needs to meet the minimum balance requirements defined by both the `proposalCreationMinBalance` and `proposalCreationDeposit` configurations. Note that the author must satisfy the higher of the two amounts, not the cumulative sum.
 
-For the Swaptoshi Network, the `proposalCreationMinBalance` is set to `1,000,000,000,000 Nakamoto`, which is equivalent to `10,000 SWX`.
+For the Swaptoshi Network, the `proposalCreationMinBalance` is set to `1,000,000,000,000 Nakamoto`, which is equivalent to `10,000 SWX`. Furthermore, the `proposalCreationDeposit` is set to `100,000,000,000 Nakamoto`, which is equivalent to `1000 SWX`.
 
 Once a proposal is successfully created, the deposit amount will be locked in the author's account. The handling of this deposit will be managed during the [Quorum Check](#quorum-check) process.
 

@@ -23,7 +23,7 @@ The goal of this phase is to initiate and bootstrap the initial networks to enab
 
 This phase includes:
 
-1. **54 Genesis Validators**: Swaptoshi will be initialized with a genesis block containing 54 validators—53 with a vote weight of 10 SWX, and 1 non-forging validator with no vote weight. The non-forging validator plays a crucial role in the [Liquidity Setup Phase](#-liquidity-setup-phase) discussed later.
+1. **54 Genesis Validators**: Swaptoshi will be launched with a genesis block that includes 54 validators. Of these, 53 will be configured as initial validators, with 31 of them holding a genesis balance of 10 SWX each, used exclusively for self-staking. Additionally, there will be 1 non-forging validator with no voting power. The non-forging validator plays a crucial role in the [Liquidity Setup Phase](#-liquidity-setup-phase) discussed later.
 
 2. **Sidechain Registration**: To ensure a smooth registration process for the Klayr sidechain, this will occur immediately after the genesis validators begin forging blocks.
 
@@ -86,7 +86,7 @@ These `6300 KLY` and `1800 SWX` will then be added to the liquidity pool.
 
 ### SWX/SWL Liquidity Setup
 
-The SWX/SWL Pool also follows a 50:50 ratio for liquidity. To acquire SWL, 50% of the SWX/SWL liquidity allocation will be staked to `genesis_validator_54`, who has no validator weight and thus won't affect the validator game fairness.
+The SWX/SWL Pool also follows a 50:50 ratio for liquidity. To acquire SWL, 50% of the SWX/SWL liquidity allocation will be staked to `genesis_53`, who has no validator weight and thus won't affect the validator game fairness.
 
 Once the SWL tokens are obtained, they will be paired with SWX tokens.
 
@@ -94,7 +94,7 @@ For the SWX/SWL pair, which is considered a stable pair, the liquidity fee will 
 
 :::info
 
-In the example above, where we have `900 SWX` allocated for SWX/SWL liquidity, `450 SWX` will be staked to `genesis_validator_54`, resulting in `450 SWL` tokens.
+In the example above, where we have `900 SWX` allocated for SWX/SWL liquidity, `450 SWX` will be staked to `genesis_53`, resulting in `450 SWL` tokens.
 
 From these tokens, `90 SWX` and `90 SWL` will be used to set up a full-range liquidity position. The remaining `360 SWX` and `360 SWL` will be allocated to a liquidity position with a price range of 0.95 to 1.05 SWX/SWL.
 

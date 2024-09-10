@@ -23,7 +23,7 @@ The goal of this phase is to initiate and bootstrap the initial networks to enab
 
 This phase includes:
 
-1. **54 Genesis Validators**: Swaptoshi will be launched with a genesis block that includes 54 validators. Of these, 53 will be configured as initial validators, with 31 of them holding a genesis balance of 10 SWX each, used exclusively for self-staking. Additionally, there will be 1 non-forging validator with no voting power. The non-forging validator plays a crucial role in the [Liquidity Setup Phase](#-liquidity-setup-phase) discussed later.
+1. **54 Genesis Validators**: Swaptoshi will be launched with a genesis block that includes 54 validators. Of these, 53 will be configured as initial validators, with 33 of them holding a genesis balance of 10 SWX each, used exclusively for self-staking. Additionally, there will be 1 non-forging validator with no voting power. The non-forging validator plays a crucial role in the [Liquidity Setup Phase](#-liquidity-setup-phase) discussed later.
 
 2. **Sidechain Registration**: To ensure a smooth registration process for the Klayr sidechain, this will occur immediately after the genesis validators begin forging blocks.
 

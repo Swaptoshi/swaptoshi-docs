@@ -138,18 +138,14 @@ For example, in case [ufw](https://wiki.ubuntu.com/UncomplicatedFirewall) is use
 
 Node P2P communication
 
-````
-
+```
 ufw allow 7887
-
 ```
 
 Node API
 
 ```
-
 ufw allow 8778
-
 ```
 
 ### PM2 (optional)
@@ -157,11 +153,9 @@ ufw allow 8778
 Install [PM2](https://github.com/Unitech/pm2) and [PM2 Logrotate](https://github.com/keymetrics/pm2-logrotate) for managing the start and stop of the application process in the background as shown below:
 
 ```
-
 npm i -g pm2
 pm2 install pm2-logrotate
 pm2 set pm2-logrotate:max_size 100M
-
 ```
 
 ## Installation
@@ -169,10 +163,8 @@ pm2 set pm2-logrotate:max_size 100M
 Install swaptoshi-core globally using `npm`:
 
 ```
-
 npm install -g swaptoshi-core
-
-````
+```
 
 :::info
 

@@ -1,8 +1,6 @@
 ---
-
 sidebar_position: 2
 description: Discover ways to setup swaptoshi-core
-
 ---
 
 import Tabs from '@theme/Tabs';
@@ -10,8 +8,7 @@ import TabItem from '@theme/TabItem';
 
 # Install Swaptoshi Core
 
-The installation from source code is designed for anyone wishing to develop on the Swaptoshi Core codebase.
-An installation performed from the source code enables a developer to work on the latest codebase of Swaptoshi Core, which may not have been tagged for a release yet.
+This document explains how to install `swaptoshi-core` on your machine using `npm`.
 
 ## Pre-Install
 
@@ -57,7 +54,7 @@ These are used for compiling dependencies.
 
     ```
     sudo apt update
-    sudo apt install -y libtool automake autoconf curl build-essential python2-minimal
+    sudo apt install -y git libtool automake autoconf curl build-essential python2-minimal
     ```
 
   </TabItem>
@@ -65,27 +62,9 @@ These are used for compiling dependencies.
     Ensure that both [XCode](https://developer.apple.com/xcode/) and [Homebrew](https://brew.sh/) are installed.
 
     ```
-    brew install autoconf automake libtool python2
-    ```
-  </TabItem>
-</Tabs>
-
-### Git
-
-[Git](https://github.com/git/git) is used for cloning and updating Swaptoshi as displayed below:
-
-<Tabs>
-  <TabItem value="Ubuntu" label="Ubuntu" default>
-
-    ```
-    sudo apt install git
+    brew install git autoconf automake libtool python2
     ```
 
-  </TabItem>
-  <TabItem value="MacOS" label="MacOS">
-    ```
-    brew install git
-    ```
   </TabItem>
 </Tabs>
 
@@ -104,6 +83,22 @@ These are used for compiling dependencies.
     ```
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
     ```
+
+    :::info
+
+    Please note that you may need to restart your terminal session to use the `nvm` command.
+
+    Alternatively, you can run the following command to use `nvm` right after executing above installation script:
+
+    ```
+    export NVM_DIR="$HOME/.nvm"
+    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+    [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
+    ```
+
+    Head to [NVM official repository](https://github.com/creationix/nvm) to learn more!
+
+    :::
 
     - Install the version 18 of Node.js using NVM with the following command shown below:
 
@@ -143,14 +138,18 @@ For example, in case [ufw](https://wiki.ubuntu.com/UncomplicatedFirewall) is use
 
 Node P2P communication
 
-```
+````
+
 ufw allow 7887
+
 ```
 
 Node API
 
 ```
+
 ufw allow 8778
+
 ```
 
 ### PM2 (optional)
@@ -158,57 +157,26 @@ ufw allow 8778
 Install [PM2](https://github.com/Unitech/pm2) and [PM2 Logrotate](https://github.com/keymetrics/pm2-logrotate) for managing the start and stop of the application process in the background as shown below:
 
 ```
+
 npm i -g pm2
 pm2 install pm2-logrotate
 pm2 set pm2-logrotate:max_size 100M
+
 ```
 
 ## Installation
 
+Install swaptoshi-core globally using `npm`:
+
+```
+
+npm install -g swaptoshi-core
+
+````
+
 :::info
 
-This section details how to install Swaptoshi Core from the source code.
-When completed, a functioning node on the Swaptoshi network will exist.
-
-Executing the following commands below will enable you to clone the repository, navigate into the `swaptoshi-core` root folder, and install the dependencies.
-
-:::
-
-Clone the repository
-
-```
-git clone https://github.com/swaptoshi/swaptoshi-core.git
-```
-
-Navigate into the "swaptoshi-core" root folder
-
-```
-cd swaptoshi-core
-```
-
-Install dependencies
-
-```
-npm install
-```
-
-Build the binary
-
-```
-npm build
-```
-
-Optionally Setup the swaptoshi-core alias, by running this command:
-
-```
-echo 'alias swaptoshi-core=$(pwd)/bin/run' >> ~/.profile && source ~/.profile
-```
-
-:::note
-
-If you haven't set up the `swaptoshi-core` alias, you'll need to use the `/bin/run` file located in the `swaptoshi-core` folder to execute commands.
-
-For example, instead of running `swaptoshi-core start`, you should use `<path-to-swaptoshi-core>/bin/run start`.
+If you'd like to install `swaptoshi-core` by building it from source, visit the official [GitHub repository](https://github.com/swaptoshi/swaptoshi-core) for more details.
 
 :::
 
@@ -246,6 +214,7 @@ For example, instead of running `swaptoshi-core start`, you should use `<path-to
     ```
     swaptoshi-core start --api-ipc --network testnet  --overwrite-config
     ```
+
   </TabItem>
 </Tabs>
 

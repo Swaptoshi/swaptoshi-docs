@@ -3,6 +3,9 @@ sidebar_position: 4
 description: Discover Swaptoshi interoperability.
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Interoperability
 
 Swaptoshi is built using the Klayr SDK, which is a toolkit for creating independent blockchains that can interoperate with each other, all using JavaScript.
@@ -56,3 +59,38 @@ For the relayer, Swaptoshi schedules the Cross-Chain Updates (CCU) to be sent ev
 Anyone is free to become a relayer, and sends their own Cross-Chain Updates (CCU).
 
 :::
+
+## Relayer Inclusion Proof
+
+As outlined in the [Klayr Documentation](https://klayr.xyz/documentation/run-blockchain/setup-relayer.html#calculating-inclusionproofkeys), setting up an inclusion proof is essential for configuring the relayer node.
+
+Below is the inclusion proof for the Swaptoshi network:
+
+<Tabs>
+  <TabItem value="Testnet" label="Testnet" default>
+
+    ```
+    83ed0d2500007ebb29227bd18cfbe1827f4bec44e6be8b53304ac01b00aaf63b056b85c9d059
+    ```
+
+  </TabItem>
+  <TabItem value="Devnet" label="Devnet" default>
+
+    ```
+    83ed0d2500005735b05e48e476be8b87c6fcfcccdb3012808926eaa933b756379214586d380c
+    ```
+
+  </TabItem>
+</Tabs>
+
+You can then insert this value into your node's `config.json` file under `system > inclusionProofKeys` as follows:
+
+```json
+{
+  "system": {
+    "inclusionProofKeys": [
+      "83ed0d2500005735b05e48e476be8b87c6fcfcccdb3012808926eaa933b756379214586d380c"
+    ]
+  }
+}
+```

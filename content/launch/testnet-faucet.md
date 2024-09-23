@@ -13,4 +13,4 @@ The faucet ensures that communities have the resources needed to simulate transa
 
 ## Important Links
 
-Swaptoshi testnet faucet will be accessible through: https://testnet-faucet.swaptoshi.com
+Swaptoshi testnet faucet will be accessible through: https://link.swaptoshi.com/testnet-faucet

@@ -83,7 +83,7 @@ Below is the inclusion proof for the Swaptoshi network:
   </TabItem>
 </Tabs>
 
-You can then insert this value into your node's `config.json` file under `system > inclusionProofKeys` as follows:
+You can then insert this value into your Klayr node's `config.json` file under `system > inclusionProofKeys` as follows:
 
 ```json
 {
@@ -91,6 +91,32 @@ You can then insert this value into your node's `config.json` file under `system
     "inclusionProofKeys": [
       "83ed0d2500005735b05e48e476be8b87c6fcfcccdb3012808926eaa933b756379214586d380c"
     ]
+  }
+}
+```
+
+## Registration Height
+
+Setting up `registrationHeight` is important to setup a relayer node from Klayr mainchain to Swaptoshi sidechain. Below is the `registrationHeight` of Swaptoshi sidechain on Klayr mainchain:
+
+<Tabs>
+  <TabItem value="Testnet" label="Testnet" default>
+
+    ```
+    1281500
+    ```
+
+  </TabItem>
+</Tabs>
+
+You can then insert this value into your Klayr node's `config.json` file under `plugins > chainConnector > registrationHeight` as follows:
+
+```json
+{
+  "plugins": {
+    "chainConnector": {
+      "registrationHeight": 1281500
+    }
   }
 }
 ```

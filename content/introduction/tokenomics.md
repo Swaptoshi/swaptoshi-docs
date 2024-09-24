@@ -35,7 +35,7 @@ Again, if you have any ideas or feedback about the initial price, feel free to [
 
 At launch, `119,364,000,000 Nakamoto`, equivalent to `1,193.64 SWX` or 0.0056% of the total supply, will be minted for network setup purposes. The remaining `20,998,806.36 SWX`, or 99.9944% of the total supply, will be mined over a period of 100 years.
 
-The pre-minted `573.64 SWX` tokens will be held at the address `klyof58j7a5fvs55utdnv6xmkv3b6swjmjaotbt85`. Meanwhile, `620 SWX` will be distributed in the genesis block to [20 VIP Validators](../launch/vip).
+The pre-minted `243.64 SWX` tokens will be held at the address `klyof58j7a5fvs55utdnv6xmkv3b6swjmjaotbt85`. Meanwhile, at genesis block, `330 SWX` will be [distributed to 33 genesis validator](../launch/mainnet#️-network-setup-phase), and `620 SWX` will be distributed to [20 VIP Validators](../launch/vip).
 
 ![About Swaptoshi](./img/distribution-pie.png)
 

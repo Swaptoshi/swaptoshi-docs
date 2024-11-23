@@ -17,7 +17,7 @@ The tokenomics design is open to community suggestions and input. If you have an
 
 The initial price of the SWX token is set at **3.5 KLY/SWX**. This pricing strategy is carefully designed to balance validator incentives with the overall market cap. Here’s a more detailed explanation:
 
-- **Validator Incentive**: The KLY network rewards `2 KLY` per block with a `7-second` block time, resulting in approximately `24,685 KLY` mined daily by 53 validators. For Swaptoshi, `0.25 SWX` per block with a `3-second` block time yields about `7,200 SWX` per day. At a price of `3.5 KLY/SWX`, validators could earn around `25,200 KLY` daily (before distribution among 53 validators), closely matching the KLY daily reward.
+- **Validator Incentive**: The KLY network rewards `2 KLY` per block with a `7-second` block time, resulting in approximately `24,685 KLY` mined daily by 53 validators. For Swaptoshi, `0.25 SWX` per block with a `3-second` block time yields about `7,200 SWX` per day. At a price of `3.5 KLY/SWX`, validators could earn around `25,200 KLY` daily (before distribution among 23 validators), closely matching the KLY daily reward.
 
 - **Reasonable Initial Market Cap**: In the first year, with `0.25 SWX` per block, a `3-second` block time, and `1,193.64 SWX` pre-minted, the total supply will reach `2,629,193.64 SWX`. At a price of `3.5 KLY/SWX`, this results in a value of `9,202,177.74 KLY`, which is approximately `5%` of the KLY market cap.
 
@@ -35,7 +35,7 @@ Again, if you have any ideas or feedback about the initial price, feel free to [
 
 At launch, `119,364,000,000 Nakamoto`, equivalent to `1,193.64 SWX` or 0.0056% of the total supply, will be minted for network setup purposes. The remaining `20,998,806.36 SWX`, or 99.9944% of the total supply, will be mined over a period of 100 years.
 
-The pre-minted `243.64 SWX` tokens will be held at the address `klyof58j7a5fvs55utdnv6xmkv3b6swjmjaotbt85`. Meanwhile, at genesis block, `330 SWX` will be [distributed to 33 genesis validator](../launch/mainnet#️-network-setup-phase), and `620 SWX` will be distributed to [20 VIP Validators](../launch/vip).
+The pre-minted `740.64 SWX` tokens will be held at the address `klyof58j7a5fvs55utdnv6xmkv3b6swjmjaotbt85`. Meanwhile, at genesis block, `143 SWX` will be [distributed to 13 genesis validator](../launch/mainnet#️-network-setup-phase), and `310 SWX` will be distributed to [10 VIP Validators](../launch/vip).
 
 ![About Swaptoshi](./img/distribution-pie.png)
 

@@ -23,17 +23,17 @@ The goal of this phase is to initiate and bootstrap the initial networks to enab
 
 This phase includes:
 
-1. **54 Genesis Validators**: Swaptoshi will be launched with a genesis block that includes 54 validators. Of these, 53 will be configured as initial validators, with 33 of them holding a genesis balance of 10 SWX each, used exclusively for self-staking. Additionally, there will be 1 non-forging validator with no voting power. The non-forging validator plays a crucial role in the [Liquidity Setup Phase](#-liquidity-setup-phase) discussed later.
+1. **24 Genesis Validators Account**: Swaptoshi will be launched with 24 genesis_validator account. Of these, 23 will be configured as active initial validators, with 13 of them holding a genesis balance of 11 SWX each, used exclusively for self-staking. Additionally, there will be 1 non-forging validator with no voting power. The non-forging validator plays a crucial role in the [Liquidity Setup Phase](#-liquidity-setup-phase) discussed later.
 
 2. **Sidechain Registration**: To ensure a smooth registration process for the Klayr sidechain, this will occur immediately after the genesis validators begin forging blocks.
 
-3. **20 VIP Validators**: Swaptoshi will invite 20 community validators to join from the start as part of the [Validator Initialization Program (VIP)](./vip). Each VIP validator will receive 31 SWX in the genesis block: 10 SWX for validator registration, 20 SWX for self-staking, and 1 SWX to cover transaction fees. The 20 SWX allocated for self-staking ensures that their validator weight surpasses that of the genesis validators, securing their role in block forging.
+3. **10 VIP Validators**: Swaptoshi will invite 10 community validators to join from the start as part of the [Validator Initialization Program (VIP)](./vip). Each VIP validator will receive 31 SWX in the genesis block: 10 SWX for validator registration, 20 SWX for self-staking, and 1 SWX to cover transaction fees. The 20 SWX allocated for self-staking ensures that their validator weight surpasses that of the genesis validators, securing their role in block forging.
 
 4. **Initialization Period**: An initialization period of 201,559 blocks (approximately 7 days) will occur, during which the block reward is inactive. This period allows validators to prepare themselves adequately.
 
 5. **Pool Setup**: During this phase, the liquidity pools for the KLY/SWX and SWX/SWL pairs will be established. The KLY/SWX pool will be set up with an initial price of `3.5 KLY : 1 SWX`, as detailed in the [Tokenomics](../introduction/tokenomics#initial-price) section. Meanwhile, the SWX/SWL pool will start with a price of `1 SWX : 1 SWL`. The process of providing liquidity for these pools will be covered in the [Liquidity Setup Phase](#swxswl-liquidity-setup) section below.
 
-At the end of this phase, the network will have 20 VIP Validators from the community and 33 Genesis Validators actively producing blocks.
+At the end of this phase, the network will have 10 VIP Validators from the community and 13 Genesis Validators actively producing blocks.
 
 ## 💰 Liquidity Setup Phase
 
@@ -43,7 +43,7 @@ This phase involves three main focuses: Liquidity Source, KLY/SWX Liquidity Setu
 
 ### Liquidity Source
 
-To bootstrap the initial liquidity, Swaptoshi will utilize the block rewards earned by all Genesis Validators (ranging from 33 to 53 validators). These Genesis Validators will continue forging blocks for at least `28,800 blocks` (approximately 1 day), with all the block rewards being allocated to supply liquidity.
+To bootstrap the initial liquidity, Swaptoshi will utilize the block rewards earned by all Genesis Validators (ranging from 13 to 23 validators). These Genesis Validators will continue forging blocks for at least `28,800 blocks` (approximately 1 day), with all the block rewards being allocated to supply liquidity.
 
 The liquidity distribution will be allocated as follows: `80%` will go towards the KLY/SWX liquidity pool, while `20%` will be allocated to the SWX/SWL liquidity pool.
 
@@ -51,7 +51,7 @@ From this process, three NFT Liquidity Positions will be created. Details on how
 
 :::note
 
-Swaptoshi cannot control the exact amount of tokens earned in a day by all Genesis Validators due to the nature of `dynamicReward` module, not to mention also the activity of 20 VIP Validators. However, all block rewards earned by Genesis Validators during this period will be allocated to providing liquidity.
+Swaptoshi cannot control the exact amount of tokens earned in a day by all Genesis Validators due to the nature of `dynamicReward` module, not to mention also the activity of 10 VIP Validators. However, all block rewards earned by Genesis Validators during this period will be allocated to providing liquidity.
 
 :::
 
@@ -86,7 +86,7 @@ These `6300 KLY` and `1800 SWX` will then be added to the liquidity pool.
 
 ### SWX/SWL Liquidity Setup
 
-The SWX/SWL Pool also follows a 50:50 ratio for liquidity. To acquire SWL, 50% of the SWX/SWL liquidity allocation will be staked to `genesis_53`, who has no validator weight and thus won't affect the validator game fairness.
+The SWX/SWL Pool also follows a 50:50 ratio for liquidity. To acquire SWL, 50% of the SWX/SWL liquidity allocation will be staked to `genesis_23`, who has no validator weight and thus won't affect the validator game fairness.
 
 Once the SWL tokens are obtained, they will be paired with SWX tokens.
 
@@ -94,7 +94,7 @@ For the SWX/SWL pair, which is considered a stable pair, the liquidity fee will 
 
 :::info
 
-In the example above, where we have `900 SWX` allocated for SWX/SWL liquidity, `450 SWX` will be staked to `genesis_53`, resulting in `450 SWL` tokens.
+In the example above, where we have `900 SWX` allocated for SWX/SWL liquidity, `450 SWX` will be staked to `genesis_23`, resulting in `450 SWL` tokens.
 
 From these tokens, `90 SWX` and `90 SWL` will be used to set up a full-range liquidity position. The remaining `360 SWX` and `360 SWL` will be allocated to a liquidity position with a price range of 0.95 to 1.05 SWX/SWL.
 

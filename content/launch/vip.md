@@ -9,7 +9,7 @@ description: Discover how to become our 1st OG validator
 
 The VIP Program is created to jumpstart the network and encourage community involvement, paving the way for Swaptoshi's decentralization.
 
-The VIP Program invites up to 20 community members to play a key role in Swaptoshi's decentralization and future development.
+The VIP Program invites up to 10 community members to play a key role in Swaptoshi's decentralization and future development.
 
 This document will detail the requirements for joining the VIP Program and the incentives offered to participants.
 
@@ -19,7 +19,7 @@ To join the VIP Program as a Swaptoshi Validator, community members must first r
 
 While there is no specific obligation for setting commission rates, applicants will need to provide certain information and answer questions during the [Registration](#registration) process.
 
-If there are more interested candidates than available slots, factors such as validator involvement in Klayr Testnet and Mainnet, as well as commission settings, may be used to select the top 20 contributors who best support Swaptoshi's decentralization and growth.
+If there are more interested candidates than available slots, factors such as validator involvement in Klayr Testnet and Mainnet, as well as commission settings, may be used to select the top 10 contributors who best support Swaptoshi's decentralization and growth.
 
 ## Registration
 
@@ -45,7 +45,7 @@ To register for the VIP Program, we'll use GitHub's "New Issue" feature to keep 
 
 If you are selected as a VIP Validator, your wallet address will be listed in `genesis_assets.json` in the `swaptoshi-core` repository's mainnet config folder, and updates about your participation will be posted on the issue page you created.
 
-The final selection of up to 20 VIP Validators will be made no later than 7 days before the Swaptoshi Mainnet launch.
+The final selection of up to 10 VIP Validators will be made no later than 7 days before the Swaptoshi Mainnet launch.
 
 :::info
 
@@ -61,7 +61,7 @@ Since VIP Program registration uses GitHub, everyone free to leave comments, joi
 
 :::warning
 
-Once the 20 VIP Validators are selected, the decision is final and cannot be contested.
+Once the 10 VIP Validators are selected, the decision is final and cannot be contested.
 
 :::
 
@@ -81,8 +81,8 @@ Which means, it's crucial to use this incentive solely for the purposes outlined
 
 :::
 
-To estimate the daily earnings for each active validator, during the first epoch with a `0.25 SWX` reward per block, a total of `7200 SWX` will be distributed per day among 53 validators.
+To estimate the daily earnings for each active validator, during the first epoch with a `0.25 SWX` reward per block, a total of `7200 SWX` will be distributed per day among 23 validators.
 
-Assuming equal weight and rewards distribution, each validator would receive approximately `135.85 SWX` per day.
+Assuming equal weight and rewards distribution, each validator would receive approximately `313.04 SWX` per day.
 
-With an initial price of `3.5 KLY/SWX`, as outlined in the [Tokenomics](../introduction/tokenomics#initial-price), this would translate to earnings of approximately `475.475 KLY` per day.
+With an initial price of `3.5 KLY/SWX`, as outlined in the [Tokenomics](../introduction/tokenomics#initial-price), this would translate to earnings of approximately `1095.64 KLY` per day.
